@@ -1,0 +1,38 @@
+.triangle {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 280px;
+    height: 280px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(17, 96, 116, 0.726);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.message {
+    width: 200px;
+    font-size: 25px;
+    margin: 0%;
+    margin-bottom: 30px;
+}
+
+.start {
+    background-color: rgba(17, 96, 116, 0.726);
+}
+
+.goldenrod {
+    background-color: rgba(219, 207, 37, 0.726);
+}
+
+.red {
+    background-color: rgba(185, 29, 29, 0.726);
+}
+
+.green {
+    background-color: rgba(17, 146, 75, 0.726);
+}
